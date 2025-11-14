@@ -1,0 +1,20 @@
+110010001	Lieber Bruder!	2017-03-08	001-Manual-Grimm-Letters/Manual-Jacob/Jacob_1793_B1_Br_5995
+110010002	Du wirst hierbey dein Kleid erhalten, Wie hat es dir den auf der Reise gefallen, mich verlangt es zu wissen, ich erwarte mit der ersten Gelegenheit einen Brief von dir, in lang deiner Abwesenheit ist nichts merkwürdiges vorgefallen.	2017-03-08	001-Manual-Grimm-Letters/Manual-Jacob/Jacob_1793_B1_Br_5995
+110010003	Mein Vater hatt heute einen sehr starken Amtstag gehabt.	2017-03-08	001-Manual-Grimm-Letters/Manual-Jacob/Jacob_1793_B1_Br_5995
+110010004	bis freitag wird dich unser hofJud Jud Seelig besuchen und mit diesem werde ich dir weitläufiger schreiben, Küsse der lieben Mutter den Großvater und jungfer Tante die Hand in meinem Namen.	2017-03-08	001-Manual-Grimm-Letters/Manual-Jacob/Jacob_1793_B1_Br_5995
+110010005	Du wirst von uns allen gegrüßet.	2017-03-08	001-Manual-Grimm-Letters/Manual-Jacob/Jacob_1793_B1_Br_5995
+110010006	und ich bin dein treuer Bruder	2017-03-08	001-Manual-Grimm-Letters/Manual-Jacob/Jacob_1793_B1_Br_5995
+110010007	Jacob Grimm	2017-03-08	001-Manual-Grimm-Letters/Manual-Jacob/Jacob_1793_B1_Br_5995
+210010001	Lieber Bruder!	2017-03-08	002-OCR-Grimm-Letters/OCR-Jacob-Letters/Jacob_1793_B1_Br_5995
+210010002	Du wirst hierbey dein Kleid erhalten, Wie hatt es dir denn auf der Reise gefallen, mich verlanget es zu wissen, ich erwarte mit der ersten Gelegenheit einen Brief von dir, seit deiner Abwesenheit ist nichts merkwürdiges vorgefallen.	2017-03-08	002-OCR-Grimm-Letters/OCR-Jacob-Letters/Jacob_1793_B1_Br_5995
+210010003	Mein Vater hatte heute einen sehr starken Amtstag gehabt, bis Freitag wird dich unser hofjud Jud Seelig besuchen und mit diesem werde ich dir weitläufliger schreiben,	2017-03-08	002-OCR-Grimm-Letters/OCR-Jacob-Letters/Jacob_1793_B1_Br_5995
+210010004	Küße der lieben Mutter dem Großvater und jungfer Tante die Hand in meinem Nammen.	2017-03-08	002-OCR-Grimm-Letters/OCR-Jacob-Letters/Jacob_1793_B1_Br_5995
+210010005	Du wirst von uns allen gegrüßet, und ich bin dein treuer Bruder	2017-03-08	002-OCR-Grimm-Letters/OCR-Jacob-Letters/Jacob_1793_B1_Br_5995
+210010006	Jacob Grimm	2017-03-08	002-OCR-Grimm-Letters/OCR-Jacob-Letters/Jacob_1793_B1_Br_5995
+310010001	Lieber Bruder!	2017-03-08	003-Automatic-Grimm-Letters/Automatic-Jacob-Letters/Jacob_1793_B1_Br_5995
+310010002	Du wirst hierbey dein Kleid erhalten, Wie hat es dir den auf der Reise gefalen, mich verlangt es u wissen, ich erwarte mit der ersten Gelegenheit einen Brief von dir, in lang deiner Abwesenheit ist nichts merkwürdiges vorgefallen.	2017-03-08	003-Automatic-Grimm-Letters/Automatic-Jacob-Letters/Jacob_1793_B1_Br_5995
+310010003	Mein Vater hat heute einen sehr starken Amtstag gehabt.	2017-03-08	003-Automatic-Grimm-Letters/Automatic-Jacob-Letters/Jacob_1793_B1_Br_5995
+310010004	bis freitag wird dich unser hofJud Jud Seelig besuchen und mit diesem werde ich dir weitläufiger schreiben, Küsse der lieben Mutter den Großvater und jungfer Tante die Hand in meinem Namen.	2017-03-08	003-Automatic-Grimm-Letters/Automatic-Jacob-Letters/Jacob_1793_B1_Br_5995
+310010005	Du wiest von uns allen gegrüßet.	2017-03-08	003-Automatic-Grimm-Letters/Automatic-Jacob-Letters/Jacob_1793_B1_Br_5995
+310010006	und ich bin dein treuer Bruder	2017-03-08	003-Automatic-Grimm-Letters/Automatic-Jacob-Letters/Jacob_1793_B1_Br_5995
+310010007	Jacob Grim	2017-03-08	003-Automatic-Grimm-Letters/Automatic-Jacob-Letters/Jacob_1793_B1_Br_5995
