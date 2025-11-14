@@ -85,7 +85,6 @@ class Needleman_Wunsch:
 
 
 
-
 file = "grimm-letters.txt"
 df = pd.read_csv(file, sep='\t', header=None, names=["ID", "TEXT", "SOURCE", "DATE"])
 
@@ -96,27 +95,76 @@ textA = {IDS[i]: TEXTS[i] for i in range(len(TEXTS)) if IDS[i][0]== "1"}
 textB = {IDS[i]: TEXTS[i] for i in range(len(TEXTS)) if IDS[i][0]== "2"}
 textC = {IDS[i]: TEXTS[i] for i in range(len(TEXTS)) if IDS[i][0]== "3"}
 
-for i in range(1, len(textA)+1):
-    A = textA[f"11001000{i}"]
-    B = textC[f"31001000{i}"]
-    nw = Needleman_Wunsch(A, B, penalty=-1)
-    nw.create_matrix()
-    nw.trace_back()
-    print("="*20)
-    print(nw.AlignmentA)
-    print(nw.AlignmentB)
-    print(f"Wynik dopasowania: {nw.alignment_score}")
-    print("="*20)
+texts = {IDS[i]: TEXTS[i] for i in range(len(TEXTS))}
 
+scores = dict()
 
+print("="*80)
+print("PORÓWNANIE TEKST 1 Z TEKST 2")
+print("="*80)
 
+for keyA, valueA in textA.items():
+    A = textA[keyA]
+    scores_A_B = dict()
 
+    for keyB, valueB in textB.items():
+        B = textB[keyB]
+        nw = Needleman_Wunsch(A, B, penalty=-1)
+        nw.create_matrix()
+        nw.trace_back()
+        scores_A_B[nw.alignment_score] = (keyB, nw.AlignmentA, nw.AlignmentB)
+        scores[nw.alignment_score] = [nw.AlignmentA, nw.AlignmentB]
 
+    if scores_A_B:
+        best_score = max(scores_A_B.keys())
+        keyB, alignmentA, alignmentB = scores_A_B[best_score]
+        print(f"\nLinia {keyA} (Tekst A) -> Linia {keyB} (Tekst B)")
+        print(f"Alignment Score: {best_score}")
+        print(f"Wyrównanie A: {alignmentA}")
+        print(f"Wyrównanie B: {alignmentB}")
 
+print("\n" + "="*80)
+print("PORÓWNANIE TEKST 1 Z TEKST 3")
+print("="*80)
 
+for keyA, valueA in textA.items():
+    A = textA[keyA]
+    scores_A_C = dict()
 
+    for keyC, valueC in textC.items():
+        C = textC[keyC]
+        nw = Needleman_Wunsch(A, C, penalty=-1)
+        nw.create_matrix()
+        nw.trace_back()
+        scores_A_C[nw.alignment_score] = (keyC, nw.AlignmentA, nw.AlignmentB)
 
+    if scores_A_C:
+        best_score = max(scores_A_C.keys())
+        keyC, alignmentA, alignmentC = scores_A_C[best_score]
+        print(f"\nLinia {keyA} (Tekst A) -> Linia {keyC} (Tekst C)")
+        print(f"Alignment Score: {best_score}")
+        print(f"Wyrównanie A: {alignmentA}")
+        print(f"Wyrównanie C: {alignmentC}")
 
+print("\n" + "="*80)
+print("PORÓWNANIE TEKST 2 Z TEKST 3")
+print("="*80)
 
+for keyB, valueB in textB.items():
+    B = textB[keyB]
+    scores_B_C = dict()
 
+    for keyC, valueC in textC.items():
+        C = textC[keyC]
+        nw = Needleman_Wunsch(B, C, penalty=-1)
+        nw.create_matrix()
+        nw.trace_back()
+        scores_B_C[nw.alignment_score] = (keyC, nw.AlignmentA, nw.AlignmentB)
 
+    if scores_B_C:
+        best_score = max(scores_B_C.keys())
+        keyC, alignmentB, alignmentC = scores_B_C[best_score]
+        print(f"\nLinia {keyB} (Tekst B) -> Linia {keyC} (Tekst C)")
+        print(f"Alignment Score: {best_score}")
+        print(f"Wyrównanie B: {alignmentB}")
+        print(f"Wyrównanie C: {alignmentC}")
