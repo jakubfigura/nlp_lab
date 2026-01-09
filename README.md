@@ -23,3 +23,13 @@ According to Zipf's law: <br/> $\text{word frequency} \propto \frac{1}{\text{wor
 The distribution is usually ilustrated via log-log plot. Here I plot it with fitted regression model.
 
 ![Zipf's law](lab1/zipf_law_for_total_zulawski_books_normalized.png)
+
+## Needleman-Wunsch Algorithm
+
+The Needleman-Wunsh algorithm is an algorithm which is used in bioinformatics to align protein and nucleotide sequences. In this excercise I provided the implementation of the algorithm in python following the pseudocode and very good explanation from Wikipedia (see. https://en.wikipedia.org/wiki/Needleman–Wunsch_algorithm). The algorithm was used to study similarity of Grimm Brothers Letters which where read using various methods of handwriting recognition. 
+
+
+## N-grams 
+
+The excercies involved counting n-grams in Witkacy Books. 
+![N-grams](lab3/grams.png)
