@@ -18,5 +18,8 @@ The task involved analyzing a corpus of texts and examining the distribution of 
 
 ![Distributions of most common words in corpus](lab1/distribution_of_zulawski_books_matrix.png)
 
-According to Zipf's law $\text{word frequency} \propto \frac{1}{\text{word rank}}$
+According to Zipf's law: <br/> $\text{word frequency} \propto \frac{1}{\text{word rank}}$
 
+The distribution is usually ilustrated via log-log plot. Here I plot it with fitted regression model.
+
+![Zipf's law](lab1/zipf_law_for_total_zulawski_books_normalized.png)
